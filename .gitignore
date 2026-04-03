@@ -28,5 +28,7 @@ syncrojudge-*.tar
 # ElixirLS (VSCode extension) cache and settings
 /.elixir_ls/
 
+
+
 # Environment Variables
 .env
