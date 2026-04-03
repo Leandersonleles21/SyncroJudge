@@ -28,6 +28,12 @@ syncrojudge-*.tar
 # ElixirLS (VSCode extension) cache and settings
 /.elixir_ls/
 
+# Uploads
+/uploads/
+
+# Session SQL
+*.session.sql
+
 
 
 # Environment Variables

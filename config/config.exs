@@ -5,6 +5,6 @@ config :syncrojudge,
 
 config :syncrojudge, Syncrojudge.Repo,
   database: "syncrojudge_repo",
-  username: "user",
-  password: "pass",
+  username: "postgres",
+  password: "postgres",
   hostname: "localhost"
