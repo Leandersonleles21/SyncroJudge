@@ -1,0 +1,10 @@
+{application,syncrojudge,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,phoenix_live_view,
+                             ecto_sql,postgrex,oban,ex_aws,ex_aws_s3,hackney,
+                             sweet_xml,bcrypt_elixir,jason]},
+              {description,"syncrojudge"},
+              {modules,['Elixir.Syncrojudge','Elixir.Syncrojudge.Repo',
+                        'Elixir.Syncrojudge.Submission']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
