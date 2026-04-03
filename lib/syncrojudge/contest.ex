@@ -18,6 +18,7 @@ defmodule Syncrojudge.Contest do
     has_many(:problems, Syncrojudge.Problem)
     has_many(:submissions, Syncrojudge.Submission)
     has_many(:clarifications, Syncrojudge.Clarification)
+    has_many(:scoreboard_entries, Syncrojudge.ScoreboardEntry)
 
     timestamps()
   end
